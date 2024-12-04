@@ -1,0 +1,9 @@
+# array_width = 88
+# attr_fn_like_width = 88
+# chain_width = 88
+# comment_width = 88
+# fn_call_width = 88
+# single_line_if_else_max_width = 88
+# single_line_let_else_max_width = 88
+use_small_heuristics = "Max"
+imports_layout = "Horizontal"

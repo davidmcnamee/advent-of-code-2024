@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    // "GitHub.copilot",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "Gruntfuggly.todo-tree",
+    "ms-python.vscode-pylance",
+    "rust-lang.rust-analyzer",
+    "PKief.material-icon-theme",
+    "charliermarsh.ruff",
+    "esbenp.prettier-vscode"
+  ]
+}
