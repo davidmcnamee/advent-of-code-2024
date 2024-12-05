@@ -12,7 +12,7 @@ fn parse_line(line: &str) -> (i32, i32) {
 }
 
 fn main() {
-    let contents = fs::read_to_string("inputs/d1_2").expect("Failed to read file");
+    let contents = fs::read_to_string("inputs/d1").expect("Failed to read file");
     let pairs: Vec<(i32, i32)> = contents.lines().map(parse_line).collect();
     let (left, right): (Vec<i32>, Vec<i32>) = pairs.into_iter().unzip();
     let right: HashMap<i32, usize> = right.into_iter().counts_by(|loc_id| loc_id);
