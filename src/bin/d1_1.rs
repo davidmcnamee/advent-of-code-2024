@@ -1,3 +1,4 @@
+// historian hysteria (part 1)
 use std::fs;
 
 fn parse_line(line: &str) -> (i32, i32) {
